@@ -20,6 +20,27 @@
 	UIColor *_lightBorderColor;
 }
 
+- (id)initWithFrame:(CGRect)frame {
+	if ((self = [super initWithFrame:frame])) {
+		[self setFocusColorWithCornerRadio:5
+		                       borderColor:[UIColor colorWithRed:166 / 255.f green:166 / 255.f blue:166 / 255.f alpha:1.0f]
+		                       borderWidth:2
+		                        lightColor:[UIColor colorWithRed:0.729 green:0.400 blue:0.176 alpha:1.000]
+		                         lightSize:8
+		                  lightBorderColor:[UIColor colorWithRed:235 / 255.f green:235 / 255.f blue:235 / 255.f alpha:1.0f]];
+	}
+	return self;
+}
+
+- (void)awakeFromNib {
+	[self setFocusColorWithCornerRadio:5
+	                       borderColor:[UIColor colorWithRed:166 / 255.f green:166 / 255.f blue:166 / 255.f alpha:1.0f]
+	                       borderWidth:2
+	                        lightColor:[UIColor colorWithRed:0.749 green:0.420 blue:0.184 alpha:1.000]
+	                         lightSize:8
+	                  lightBorderColor:[UIColor colorWithRed:235 / 255.f green:235 / 255.f blue:235 / 255.f alpha:1.0f]];
+}
+
 - (void)setFocusColorWithCornerRadio:(CGFloat)radio borderColor:(UIColor *)bColor borderWidth:(CGFloat)bWidth lightColor:(UIColor *)lColor lightSize:(CGFloat)lSize lightBorderColor:(UIColor *)lbColor {
 	_borderColor = bColor;
 	_cornerRadio = radio;
