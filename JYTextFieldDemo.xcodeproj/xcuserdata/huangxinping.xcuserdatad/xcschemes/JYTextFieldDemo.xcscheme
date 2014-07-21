@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2102663016B12B5700D5B6F9"
+               BlueprintIdentifier = "1E77A402197D25460028CA9F"
                BuildableName = "JYTextFieldDemo.app"
                BlueprintName = "JYTextFieldDemo"
                ReferencedContainer = "container:JYTextFieldDemo.xcodeproj">
@@ -28,11 +28,21 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1E77A418197D25470028CA9F"
+               BuildableName = "JYTextFieldDemoTests.xctest"
+               BlueprintName = "JYTextFieldDemoTests"
+               ReferencedContainer = "container:JYTextFieldDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2102663016B12B5700D5B6F9"
+            BlueprintIdentifier = "1E77A402197D25460028CA9F"
             BuildableName = "JYTextFieldDemo.app"
             BlueprintName = "JYTextFieldDemo"
             ReferencedContainer = "container:JYTextFieldDemo.xcodeproj">
@@ -51,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2102663016B12B5700D5B6F9"
+            BlueprintIdentifier = "1E77A402197D25460028CA9F"
             BuildableName = "JYTextFieldDemo.app"
             BlueprintName = "JYTextFieldDemo"
             ReferencedContainer = "container:JYTextFieldDemo.xcodeproj">
@@ -69,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2102663016B12B5700D5B6F9"
+            BlueprintIdentifier = "1E77A402197D25460028CA9F"
             BuildableName = "JYTextFieldDemo.app"
             BlueprintName = "JYTextFieldDemo"
             ReferencedContainer = "container:JYTextFieldDemo.xcodeproj">

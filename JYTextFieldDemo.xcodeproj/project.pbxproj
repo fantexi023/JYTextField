@@ -7,129 +7,143 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2102663616B12B5700D5B6F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2102663516B12B5700D5B6F9 /* UIKit.framework */; };
-		2102663816B12B5700D5B6F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2102663716B12B5700D5B6F9 /* Foundation.framework */; };
-		2102663A16B12B5700D5B6F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2102663916B12B5700D5B6F9 /* CoreGraphics.framework */; };
-		2102664016B12B5700D5B6F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2102663E16B12B5700D5B6F9 /* InfoPlist.strings */; };
-		2102664216B12B5700D5B6F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102664116B12B5700D5B6F9 /* main.m */; };
-		2102664616B12B5700D5B6F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102664516B12B5700D5B6F9 /* AppDelegate.m */; };
-		2102664816B12B5700D5B6F9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2102664716B12B5700D5B6F9 /* Default.png */; };
-		2102664A16B12B5700D5B6F9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2102664916B12B5700D5B6F9 /* Default@2x.png */; };
-		2102664C16B12B5700D5B6F9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2102664B16B12B5700D5B6F9 /* Default-568h@2x.png */; };
-		2102664F16B12B5700D5B6F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102664E16B12B5700D5B6F9 /* ViewController.m */; };
-		2102665216B12B5700D5B6F9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2102665016B12B5700D5B6F9 /* ViewController.xib */; };
-		2102665B16B12B9400D5B6F9 /* JYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2102665A16B12B9400D5B6F9 /* JYTextField.m */; };
+		1E77A409197D25460028CA9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E77A408197D25460028CA9F /* main.m */; };
+		1E77A40C197D25460028CA9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E77A40B197D25460028CA9F /* AppDelegate.m */; };
+		1E77A40F197D25460028CA9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E77A40E197D25460028CA9F /* ViewController.m */; };
+		1E77A412197D25460028CA9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E77A410197D25460028CA9F /* Main.storyboard */; };
+		1E77A414197D25460028CA9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E77A413197D25460028CA9F /* Images.xcassets */; };
+		1E77A420197D25470028CA9F /* JYTextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E77A41F197D25470028CA9F /* JYTextFieldDemoTests.m */; };
+		1E77A42E197D25550028CA9F /* JYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E77A42B197D25550028CA9F /* JYTextField.m */; };
+		1E77A42F197D25550028CA9F /* WTReParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E77A42D197D25550028CA9F /* WTReParser.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1E77A41A197D25470028CA9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E77A3FB197D25460028CA9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E77A402197D25460028CA9F;
+			remoteInfo = JYTextFieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		2102663116B12B5700D5B6F9 /* JYTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2102663516B12B5700D5B6F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		2102663716B12B5700D5B6F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2102663916B12B5700D5B6F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2102663D16B12B5700D5B6F9 /* JYTextFieldDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JYTextFieldDemo-Info.plist"; sourceTree = "<group>"; };
-		2102663F16B12B5700D5B6F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2102664116B12B5700D5B6F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2102664316B12B5700D5B6F9 /* JYTextFieldDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JYTextFieldDemo-Prefix.pch"; sourceTree = "<group>"; };
-		2102664416B12B5700D5B6F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2102664516B12B5700D5B6F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2102664716B12B5700D5B6F9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		2102664916B12B5700D5B6F9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		2102664B16B12B5700D5B6F9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2102664D16B12B5700D5B6F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2102664E16B12B5700D5B6F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2102665116B12B5700D5B6F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		2102665916B12B9400D5B6F9 /* JYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTextField.h; sourceTree = "<group>"; };
-		2102665A16B12B9400D5B6F9 /* JYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTextField.m; sourceTree = "<group>"; };
+		1E77A403197D25460028CA9F /* JYTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E77A407197D25460028CA9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E77A408197D25460028CA9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E77A40A197D25460028CA9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E77A40B197D25460028CA9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E77A40D197D25460028CA9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E77A40E197D25460028CA9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E77A411197D25460028CA9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E77A413197D25460028CA9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E77A419197D25470028CA9F /* JYTextFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYTextFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E77A41E197D25470028CA9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E77A41F197D25470028CA9F /* JYTextFieldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTextFieldDemoTests.m; sourceTree = "<group>"; };
+		1E77A42A197D25550028CA9F /* JYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTextField.h; sourceTree = "<group>"; };
+		1E77A42B197D25550028CA9F /* JYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTextField.m; sourceTree = "<group>"; };
+		1E77A42C197D25550028CA9F /* WTReParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTReParser.h; sourceTree = "<group>"; };
+		1E77A42D197D25550028CA9F /* WTReParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTReParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2102662E16B12B5700D5B6F9 /* Frameworks */ = {
+		1E77A400197D25460028CA9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2102663616B12B5700D5B6F9 /* UIKit.framework in Frameworks */,
-				2102663816B12B5700D5B6F9 /* Foundation.framework in Frameworks */,
-				2102663A16B12B5700D5B6F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E77A416197D25470028CA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2102662616B12B5700D5B6F9 = {
+		1E77A3FA197D25460028CA9F = {
 			isa = PBXGroup;
 			children = (
-				2102665816B12B9400D5B6F9 /* JYTextField */,
-				2102663B16B12B5700D5B6F9 /* JYTextFieldDemo */,
-				2102663416B12B5700D5B6F9 /* Frameworks */,
-				2102663216B12B5700D5B6F9 /* Products */,
+				1E77A405197D25460028CA9F /* JYTextFieldDemo */,
+				1E77A41C197D25470028CA9F /* JYTextFieldDemoTests */,
+				1E77A404197D25460028CA9F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2102663216B12B5700D5B6F9 /* Products */ = {
+		1E77A404197D25460028CA9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2102663116B12B5700D5B6F9 /* JYTextFieldDemo.app */,
+				1E77A403197D25460028CA9F /* JYTextFieldDemo.app */,
+				1E77A419197D25470028CA9F /* JYTextFieldDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2102663416B12B5700D5B6F9 /* Frameworks */ = {
+		1E77A405197D25460028CA9F /* JYTextFieldDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2102663516B12B5700D5B6F9 /* UIKit.framework */,
-				2102663716B12B5700D5B6F9 /* Foundation.framework */,
-				2102663916B12B5700D5B6F9 /* CoreGraphics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2102663B16B12B5700D5B6F9 /* JYTextFieldDemo */ = {
-			isa = PBXGroup;
-			children = (
-				2102664416B12B5700D5B6F9 /* AppDelegate.h */,
-				2102664516B12B5700D5B6F9 /* AppDelegate.m */,
-				2102664D16B12B5700D5B6F9 /* ViewController.h */,
-				2102664E16B12B5700D5B6F9 /* ViewController.m */,
-				2102665016B12B5700D5B6F9 /* ViewController.xib */,
-				2102663C16B12B5700D5B6F9 /* Supporting Files */,
+				1E77A429197D25550028CA9F /* JYTextField */,
+				1E77A40A197D25460028CA9F /* AppDelegate.h */,
+				1E77A40B197D25460028CA9F /* AppDelegate.m */,
+				1E77A40D197D25460028CA9F /* ViewController.h */,
+				1E77A40E197D25460028CA9F /* ViewController.m */,
+				1E77A410197D25460028CA9F /* Main.storyboard */,
+				1E77A413197D25460028CA9F /* Images.xcassets */,
+				1E77A406197D25460028CA9F /* Supporting Files */,
 			);
 			path = JYTextFieldDemo;
 			sourceTree = "<group>";
 		};
-		2102663C16B12B5700D5B6F9 /* Supporting Files */ = {
+		1E77A406197D25460028CA9F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2102663D16B12B5700D5B6F9 /* JYTextFieldDemo-Info.plist */,
-				2102663E16B12B5700D5B6F9 /* InfoPlist.strings */,
-				2102664116B12B5700D5B6F9 /* main.m */,
-				2102664316B12B5700D5B6F9 /* JYTextFieldDemo-Prefix.pch */,
-				2102664716B12B5700D5B6F9 /* Default.png */,
-				2102664916B12B5700D5B6F9 /* Default@2x.png */,
-				2102664B16B12B5700D5B6F9 /* Default-568h@2x.png */,
+				1E77A407197D25460028CA9F /* Info.plist */,
+				1E77A408197D25460028CA9F /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2102665816B12B9400D5B6F9 /* JYTextField */ = {
+		1E77A41C197D25470028CA9F /* JYTextFieldDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				2102665916B12B9400D5B6F9 /* JYTextField.h */,
-				2102665A16B12B9400D5B6F9 /* JYTextField.m */,
+				1E77A41F197D25470028CA9F /* JYTextFieldDemoTests.m */,
+				1E77A41D197D25470028CA9F /* Supporting Files */,
+			);
+			path = JYTextFieldDemoTests;
+			sourceTree = "<group>";
+		};
+		1E77A41D197D25470028CA9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E77A41E197D25470028CA9F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E77A429197D25550028CA9F /* JYTextField */ = {
+			isa = PBXGroup;
+			children = (
+				1E77A42A197D25550028CA9F /* JYTextField.h */,
+				1E77A42B197D25550028CA9F /* JYTextField.m */,
+				1E77A42C197D25550028CA9F /* WTReParser.h */,
+				1E77A42D197D25550028CA9F /* WTReParser.m */,
 			);
 			path = JYTextField;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2102663016B12B5700D5B6F9 /* JYTextFieldDemo */ = {
+		1E77A402197D25460028CA9F /* JYTextFieldDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2102665516B12B5700D5B6F9 /* Build configuration list for PBXNativeTarget "JYTextFieldDemo" */;
+			buildConfigurationList = 1E77A423197D25470028CA9F /* Build configuration list for PBXNativeTarget "JYTextFieldDemo" */;
 			buildPhases = (
-				2102662D16B12B5700D5B6F9 /* Sources */,
-				2102662E16B12B5700D5B6F9 /* Frameworks */,
-				2102662F16B12B5700D5B6F9 /* Resources */,
+				1E77A3FF197D25460028CA9F /* Sources */,
+				1E77A400197D25460028CA9F /* Frameworks */,
+				1E77A401197D25460028CA9F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -137,95 +151,146 @@
 			);
 			name = JYTextFieldDemo;
 			productName = JYTextFieldDemo;
-			productReference = 2102663116B12B5700D5B6F9 /* JYTextFieldDemo.app */;
+			productReference = 1E77A403197D25460028CA9F /* JYTextFieldDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		1E77A418197D25470028CA9F /* JYTextFieldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E77A426197D25470028CA9F /* Build configuration list for PBXNativeTarget "JYTextFieldDemoTests" */;
+			buildPhases = (
+				1E77A415197D25470028CA9F /* Sources */,
+				1E77A416197D25470028CA9F /* Frameworks */,
+				1E77A417197D25470028CA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E77A41B197D25470028CA9F /* PBXTargetDependency */,
+			);
+			name = JYTextFieldDemoTests;
+			productName = JYTextFieldDemoTests;
+			productReference = 1E77A419197D25470028CA9F /* JYTextFieldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2102662816B12B5700D5B6F9 /* Project object */ = {
+		1E77A3FB197D25460028CA9F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
-				ORGANIZATIONNAME = joyame;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ShareMerge;
+				TargetAttributes = {
+					1E77A402197D25460028CA9F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1E77A418197D25470028CA9F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1E77A402197D25460028CA9F;
+					};
+				};
 			};
-			buildConfigurationList = 2102662B16B12B5700D5B6F9 /* Build configuration list for PBXProject "JYTextFieldDemo" */;
+			buildConfigurationList = 1E77A3FE197D25460028CA9F /* Build configuration list for PBXProject "JYTextFieldDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 2102662616B12B5700D5B6F9;
-			productRefGroup = 2102663216B12B5700D5B6F9 /* Products */;
+			mainGroup = 1E77A3FA197D25460028CA9F;
+			productRefGroup = 1E77A404197D25460028CA9F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2102663016B12B5700D5B6F9 /* JYTextFieldDemo */,
+				1E77A402197D25460028CA9F /* JYTextFieldDemo */,
+				1E77A418197D25470028CA9F /* JYTextFieldDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2102662F16B12B5700D5B6F9 /* Resources */ = {
+		1E77A401197D25460028CA9F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2102664016B12B5700D5B6F9 /* InfoPlist.strings in Resources */,
-				2102664816B12B5700D5B6F9 /* Default.png in Resources */,
-				2102664A16B12B5700D5B6F9 /* Default@2x.png in Resources */,
-				2102664C16B12B5700D5B6F9 /* Default-568h@2x.png in Resources */,
-				2102665216B12B5700D5B6F9 /* ViewController.xib in Resources */,
+				1E77A412197D25460028CA9F /* Main.storyboard in Resources */,
+				1E77A414197D25460028CA9F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E77A417197D25470028CA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2102662D16B12B5700D5B6F9 /* Sources */ = {
+		1E77A3FF197D25460028CA9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2102664216B12B5700D5B6F9 /* main.m in Sources */,
-				2102664616B12B5700D5B6F9 /* AppDelegate.m in Sources */,
-				2102664F16B12B5700D5B6F9 /* ViewController.m in Sources */,
-				2102665B16B12B9400D5B6F9 /* JYTextField.m in Sources */,
+				1E77A42E197D25550028CA9F /* JYTextField.m in Sources */,
+				1E77A40F197D25460028CA9F /* ViewController.m in Sources */,
+				1E77A40C197D25460028CA9F /* AppDelegate.m in Sources */,
+				1E77A42F197D25550028CA9F /* WTReParser.m in Sources */,
+				1E77A409197D25460028CA9F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E77A415197D25470028CA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E77A420197D25470028CA9F /* JYTextFieldDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		2102663E16B12B5700D5B6F9 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2102663F16B12B5700D5B6F9 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		1E77A41B197D25470028CA9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E77A402197D25460028CA9F /* JYTextFieldDemo */;
+			targetProxy = 1E77A41A197D25470028CA9F /* PBXContainerItemProxy */;
 		};
-		2102665016B12B5700D5B6F9 /* ViewController.xib */ = {
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E77A410197D25460028CA9F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2102665116B12B5700D5B6F9 /* en */,
+				1E77A411197D25460028CA9F /* Base */,
 			);
-			name = ViewController.xib;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2102665316B12B5700D5B6F9 /* Debug */ = {
+		1E77A421197D25470028CA9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -234,82 +299,143 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		2102665416B12B5700D5B6F9 /* Release */ = {
+		1E77A422197D25470028CA9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		2102665616B12B5700D5B6F9 /* Debug */ = {
+		1E77A424197D25470028CA9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JYTextFieldDemo/JYTextFieldDemo-Prefix.pch";
-				INFOPLIST_FILE = "JYTextFieldDemo/JYTextFieldDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = JYTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		2102665716B12B5700D5B6F9 /* Release */ = {
+		1E77A425197D25470028CA9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JYTextFieldDemo/JYTextFieldDemo-Prefix.pch";
-				INFOPLIST_FILE = "JYTextFieldDemo/JYTextFieldDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = JYTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1E77A427197D25470028CA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JYTextFieldDemo.app/JYTextFieldDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JYTextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		1E77A428197D25470028CA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JYTextFieldDemo.app/JYTextFieldDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JYTextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2102662B16B12B5700D5B6F9 /* Build configuration list for PBXProject "JYTextFieldDemo" */ = {
+		1E77A3FE197D25460028CA9F /* Build configuration list for PBXProject "JYTextFieldDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2102665316B12B5700D5B6F9 /* Debug */,
-				2102665416B12B5700D5B6F9 /* Release */,
+				1E77A421197D25470028CA9F /* Debug */,
+				1E77A422197D25470028CA9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2102665516B12B5700D5B6F9 /* Build configuration list for PBXNativeTarget "JYTextFieldDemo" */ = {
+		1E77A423197D25470028CA9F /* Build configuration list for PBXNativeTarget "JYTextFieldDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2102665616B12B5700D5B6F9 /* Debug */,
-				2102665716B12B5700D5B6F9 /* Release */,
+				1E77A424197D25470028CA9F /* Debug */,
+				1E77A425197D25470028CA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E77A426197D25470028CA9F /* Build configuration list for PBXNativeTarget "JYTextFieldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E77A427197D25470028CA9F /* Debug */,
+				1E77A428197D25470028CA9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2102662816B12B5700D5B6F9 /* Project object */;
+	rootObject = 1E77A3FB197D25460028CA9F /* Project object */;
 }

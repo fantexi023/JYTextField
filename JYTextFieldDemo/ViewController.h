@@ -2,15 +2,14 @@
 //  ViewController.h
 //  JYTextFieldDemo
 //
-//  Created by kinglate on 13-1-24.
-//  Copyright (c) 2013年 joyame. All rights reserved.
+//  Created by huangxinping on 7/21/14.
+//  Copyright (c) 2014 ShareMerge. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-@class JYTextField;
+
 @interface ViewController : UIViewController
-{
-	JYTextField *_txt1;
-	JYTextField *_txt2;
-}
+
+
 @end
+

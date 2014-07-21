@@ -10,6 +10,8 @@
 
 @interface JYTextField : UITextField
 
+@property (strong, nonatomic) NSString *pattern;
+
 - (void)setFocusColorWithCornerRadio:(CGFloat)radio
                          borderColor:(UIColor *)bColor
                          borderWidth:(CGFloat)bWidth

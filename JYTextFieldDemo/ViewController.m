@@ -2,8 +2,8 @@
 //  ViewController.m
 //  JYTextFieldDemo
 //
-//  Created by kinglate on 13-1-24.
-//  Copyright (c) 2013年 joyame. All rights reserved.
+//  Created by huangxinping on 7/21/14.
+//  Copyright (c) 2014 ShareMerge. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -12,6 +12,10 @@
 #define RGB(r, g, b) [UIColor colorWithRed : (r) / 255.0f green : (g) / 255.0f blue : (b) / 255.0f alpha : 1]
 
 @interface ViewController ()
+{
+	JYTextField *_txt1;
+	JYTextField *_txt2;
+}
 
 @end
 
@@ -19,6 +23,8 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
+
 	UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
 	[btn setTintColor:RGB(139, 23, 43)];
 	[btn setFrame:CGRectMake(20, 20, 100, 40)];
@@ -40,6 +46,8 @@
 	[_txt2 setPlaceholder:@"密码"];
 	[_txt2 setSecureTextEntry:YES];
 	[self.view addSubview:_txt2];
+    
+    _txt2.pattern = @"^[a-zA-Z ]{3,}$";
 }
 
 - (void)didReceiveMemoryWarning {
